@@ -1,0 +1,77 @@
+<!doctype html>
+
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Stats of Project Seminar by Kolenko Alexander</title>
+    <link rel="stylesheet" href="https://ivt21.stats.auditory.ru/askolenko_1/main.css">
+
+
+</head>
+<body  style="background-color:#CCFFFF">
+<link rel="stylesheet" href="https://ivt21.stats.auditory.ru/askolenko_1/main.css">
+<hr align="center" width="300" size="3" color="#CCCC66" />
+<div>
+    <link rel="stylesheet" href="https://ivt21.stats.auditory.ru/askolenko_1/main.css">
+    <h1 align="center"> Итоговый проект дисциплины "Проектный семинар 1"</h1>
+    <h2 align="center"> подготовил студент группы №{{myGroup}} </h2>
+    <h2 align="center"> {{myName}} </h2>
+    <h3 align="center">{{date}}</h3>
+</div>
+<hr align="center" width="300" size="3" color="#CCCC66" />
+<div>
+    <link rel="stylesheet" href="https://ivt21.stats.auditory.ru/askolenko_1/main.css">
+    <h1 align='center' style="text-decoration:underline"> Zulip </h1>
+    <h2 align='center'> Количество сообщений в Zulip : {{messages}} </h2>
+    <h3 align='center'> Диаграмма столбчатая, построенная на основе количества сообщений по дням </h3>
+    <p align='center'> {{zulipBarChart}} </p>
+    <h3 align='center'> График линейный, построенный на основе изменения общего количества сообщений </h3>
+    <p align='center'> {{zulipLineal}}</p>
+    <h3 align='center'>Список каналов, в которых я писал сообщения: {{channels}} </h3>
+</div>
+<hr align="center" width="300" size="3" color="#CCCC66" />
+<div>
+    <link rel="stylesheet" href="https://ivt21.stats.auditory.ru/askolenko_1/main.css">
+    <h1 align='center' style="text-decoration:underline"> Jitsi </h1>
+    <h2 align='center'> Количество занятий, которые были посещены мной в Jitsi по всем дисциплинам: {{visitings}} </h2>
+    <h3 align="center"> Диаграмма столбчатая, построенная на основе количества посещённых занятий по всем дисциплинам по
+        неделям</h3>
+    <p align='center'> {{jitsiBarChart}} </p>
+    <h3 align="center">График линейный, построенный на основе изменения общего количества посещённых занятий по всем
+        дисциплинам по неделям</h3>
+    <p align='center'> {{jitsiLineal}} </p>
+    <h3 align="center"> Диаграмма столбчатая, построенная на основе количества посещённых занятий по "Проектному
+        семинару" по неделям</h3>
+    <p align='center'> {{jitsiPSBarChart}} </p>
+    <h3 align="center">График линейный, построенный на основе изменения общего количества посещённых занятий по
+        "Проектному семинару" по неделям</h3>
+    <p align='center'> {{jitsiLinealPS}} </p>
+    <h3 align="center"> Диаграмма столбчатая, построенная на основе количества занятий по "Проектному семинару" по
+        неделям</h3>
+    <p align='center'> {{jitsiZanyatiyaPSBarChart}} </p>
+    <h3 align="center">График линейный, построенный на основе изменения общего количества занятий по "Проектному
+        семинару" по неделям</h3>
+    <p align='center'> {{jitsiLinealZanatiyaPs}} </p>
+    <h2 align='center'>Список посещенных каналов: {{jitsiChannels}} </h2>
+</div>
+<hr align="center" width="300" size="3" color="#CCCC66" />
+<div>
+    <link rel="stylesheet" href="https://ivt21.stats.auditory.ru/askolenko_1/main.css">
+    <h1 align='center' style="text-decoration:underline"> Taiga </h1>
+    <h2 align="center"> Общее количество пользовательских историй: {{numberOfUS}}</h2>
+    <h2 align="center"> Общее количество задач в пользовательских историях: {{numberofTasks}}</h2>
+    <h3 align="center"> График линейный, построенный на основе изменения общего количества задач</h3>
+    <p align="center"> {{taigaLineal}}</p>
+</div>
+<hr align="center" width="300" size="3" color="#CCCC66" />
+<div>
+    <link rel="stylesheet" href="https://ivt21.stats.auditory.ru/askolenko_1/main.css">
+    <h1 align='center' style="text-decoration:underline"> GitLab </h1>
+    <h3 align='center'> Количество коммитов в GitLab в репозитории проекта: {{commits}} </h3>
+    <p align='center'> {{gitBarChart}} </p>
+    <p align='center'> {{gitLineal}} </p>
+
+</div>
+
+</body>
+</html>
